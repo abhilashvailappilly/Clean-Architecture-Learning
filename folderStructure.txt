@@ -1,0 +1,35 @@
+// project-root/
+// │
+// ├── src/
+// │   ├── adapters/          (Adapters layer)
+// │   │   ├── controllers/   (Adapters for handling incoming requests)
+// │   │   ├── data-access/   (Adapters for interacting with external systems)
+// │   │   └── ...
+// │   │
+// │   ├── application/       (Use Cases layer)
+// │   │   ├── use-cases/     (Interactors or Use Cases)
+// │   │   ├── services/      (Application services, if any)
+// │   │   └── ...
+// │   │
+// │   ├── domain/            (Entities and Business Rules layer)
+// │   │   ├── entities/      (Business entities)
+// │   │   ├── repositories/  (Repository interfaces)
+// │   │   ├── services/      (Domain services, if any)
+// │   │   └── ...
+// │   │
+// │   └── infrastructure/    (Frameworks and Drivers layer)
+// │       ├── data/          (Implementations of repository interfaces)
+// │       │   ├── repositories/  (Repository implementations)
+// │       │   └── ...
+// │       └── ...
+// │
+// ├── tests/                  (Unit and integration tests)
+// │   ├── adapters/
+// │   ├── application/
+// │   ├── domain/
+// │   └── infrastructure/
+// │
+// ├── node_modules/
+// ├── package.json
+// ├── tsconfig.json
+// └── ...
