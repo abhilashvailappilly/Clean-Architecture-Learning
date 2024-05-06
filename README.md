@@ -23,3 +23,7 @@ This project serves as a learning resource for understanding the principles of C
 
 ## Project Structure
 To understand more about folder structure do refer folderStructure.txt
+
+## Contributing
+Contributions are welcome! Feel free to open issues for feedback, bug reports, or feature requests. Pull requests are encouraged for any enhancements or fixes.
+
